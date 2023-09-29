@@ -1,0 +1,24 @@
+{
+  "name": "matchstats",
+  "version": "1.0.0",
+  "description": "Statistics from football matches",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon dist/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColloKaris/matchStats.git"
+  },
+  "author": "Collins Kariuki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColloKaris/matchStats/issues"
+  },
+  "homepage": "https://github.com/ColloKaris/matchStats#readme",
+  "dependencies": {
+    "@types/node": "^20.6.3"
+  }
+}
